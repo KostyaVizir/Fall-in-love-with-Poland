@@ -1,0 +1,502 @@
+/* сброс стилей браузера */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1.2;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+ol {
+    padding-left: 1.4em;
+    list-style: decimal;
+}
+
+ul {
+    padding-left: 1.4em;
+    list-style: square;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+
+/* конец кода сброса стилей браузера */
+
+
+/*header*/
+
+#header {
+    height: 1200px;
+    width: 100%;
+    background: url("img/header.gif") no-repeat;
+    /*display: flex;
+	flex-flow: column;*/
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    color: white;
+}
+
+.middle-header {
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+p,
+h1 {
+    text-align: center;
+}
+
+.bottom-header {
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+span,
+p,
+a,
+button,
+h3,
+h1 {
+    font-family: Montserrat;
+}
+
+.top-header div a {
+    font-size: 1.3em;
+    padding-left: 45px;
+}
+
+.top-header div img {
+    padding-left: 45px;
+}
+
+.top-header div img:first-of-type {
+    margin-top: -20px;
+}
+
+.top-header div p:first-of-type {
+    margin-top: -40px;
+    margin-left: 110px;
+    font-size: 1.3em;
+}
+
+.middle-header div h1:first-of-type {
+    margin-top: 100px;
+    color: #ed6950;
+    font-size: 6em;
+}
+
+.middle-header div h1:nth-of-type(2) {
+    font-size: 6em;
+}
+
+.middle-header div p:first-of-type {
+    color: #585b5c;
+    font-size: 1.3em;
+}
+
+button {
+    width: 250px;
+    margin-top: 15px;
+    padding: 15px;
+    background: #ffc74a;
+    color: #c38b0c;
+    border-radius: 30px;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+.bottom-header p {
+    margin-top: 40px;
+    font-size: 1.3em;
+}
+
+
+/*footer*/
+
+#top-footer p:first-of-type {
+    padding-top: 150px;
+    color: white;
+    font-size: 6em;
+}
+
+#top-footer p {
+    padding-top: 20px;
+    color: white;
+    font-size: 1.3em;
+}
+
+#top-footer a {
+    text-decoration: underline;
+    color: #ffc74a;
+    font-size: 1.3em;
+}
+
+#top-footer {
+    height: 650px;
+    width: 100%;
+    background: url('img/footerPicture.gif') no-repeat;
+    background-size: 100%;
+}
+
+#bottom-footer {
+    height: 490px;
+    width: 100%;
+    color: #606f81;
+    font-size: 1.3em;
+}
+
+#logoFooter {
+    margin-top: 180px;
+    padding: 20px;
+}
+
+
+/*Popular places (Categories)*/
+
+#categories {
+    margin-top: -450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#categories div {
+    width: 320px;
+    height: 430px;
+    color: white;
+}
+
+#categories div:nth-child(1) {
+    background: url("img/categorias/darkPictureFirst.gif");
+}
+
+#categories div:nth-child(2) {
+    background: url("img/categorias/zakopane.gif");
+}
+
+#categories div:nth-child(3) {
+    background: url("img/categorias/sandomierz.gif");
+}
+
+#categories div:nth-child(4) {
+    background: url("img/categorias/sopot.gif");
+}
+
+#categories div:nth-child(5) {
+    background: url("img/categorias/darkPictureEnd.gif");
+}
+
+#categories div p:first-of-type {
+    color: white;
+    font-size: 1.8em;
+    font-family: Montserrat;
+    padding-top: 160px;
+}
+
+#Zakopane,
+#Sandomierz,
+#Sopot {
+    display: none;
+}
+
+#Zakopane:hover {
+    background: #f7af0e;
+}
+
+#Sandomierz:hover {
+    background: #f7af0e;
+}
+
+#Sopot:hover {
+    background: #f7af0e;
+}
+
+
+/*search*/
+
+#search {
+    display: flex;
+    justify-content: space-around;
+}
+
+#search-panel p {
+    font-size: 1.8em;
+    color: #606f81;
+    padding: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    border-radius: 25px;
+    width: 65%;
+    display: inline-block;
+    height: 40px;
+    outline: none;
+}
+
+input::-webkit-input-placeholder {
+    font-family: Montserrat;
+    vertical-align: middle;
+    font-size: 26px;
+}
+
+input[type="image"] {
+    left: -2.8em;
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+
+
+/*explore city*/
+
+#explore-city {
+    height: 890px;
+    background: url("img/exploreCity.gif");
+    display: flex;
+    justify-content: space-around;
+}
+
+#explore-title p {
+    font-size: 2.5em;
+    color: #606f81;
+}
+
+#explore-city div {
+    margin-top: 120px;
+    width: 40%;
+    height: 620px;
+    font-size: 1.2em;
+    font-family: Montserrat;
+    color: #606f81;
+    text-align: left;
+}
+
+#explore-city div p {
+    text-align: left;
+}
+
+#explore-city div h3 {
+    font-size: 1.8em;
+    color: #f8c759;
+}
+
+#explore-city div:nth-child(2) {
+    background: url("img/exploreSand.gif") no-repeat;
+}
+
+#search-city {
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    flex-flow: row wrap;
+}
+
+#search-city>div {
+    flex: 1 1 25%;
+    text-align: center;
+    border-radius: 25px;
+    background: #f9f9f9;
+    margin: 70px;
+}
+
+#search-city>div div img {
+    padding: 25px;
+}
+
+#search-city>div div h3 {
+    font-size: 1.8em;
+    color: #606f81;
+    padding: 1px;
+}
+
+#search-city>div div p {
+    font-size: 1.3em;
+    color: #daddf8;
+    padding: 15px;
+}
+
+#search-city>div div button {
+    padding: 15px;
+    font-size: 1.3em;
+    color: #daddf8;
+    background: white;
+    border-radius: 35px;
+    width: 200px;
+    height: 50px;
+    line-height: 16px;
+    margin-top: -5px;
+    outline: none;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#search-city>div div button:hover {
+    background-color: #ffc74a;
+}
+
+
+/*search*/
+
+#search div button {
+    font-size: 1em;
+    background: #bdc8d9;
+    border-radius: 35px;
+    width: 150px;
+    color: white;
+}
+
+#search div:nth-of-type(2) button {
+    background: white;
+    color: #bdc8d9;
+}
+
+#search div button:hover {
+    background: #ffc74a;
+}
+
+.middle-header div p button:hover {
+    background: #f7af0e;
+}
+
+#top-footer p button:hover {
+    background: #f7af0e;
+}
